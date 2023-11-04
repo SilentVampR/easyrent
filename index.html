@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easy Rental :: Phuket</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./styles.css">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Caveat&family=Comforter+Brush&display=swap"
+    rel="stylesheet">
+  <!-- END GOOGLE FONTS -->
+  <link rel="stylesheet" href="./vendor/swiper-bundle.min.css">
+
+</head>
+
+<body onload="closeLoader()">
+  <div class="loader">
+    <span class="loader__icon"></span>
+  </div>
+  <button class="top-button hidden"></button>
+  <header class="header">
+    <div class="mobile">
+      <button class="menu-close"></button>
+      <div class="top__address">
+        <a href="https://maps.app.goo.gl/axjZ7ZpV5vziBZ9z9" class="address" target="_blank">90/1 Moo.7 Srisoonthorn,
+          <br>Si Sunthon, Thalang, Phuket, 83110</a>
+      </div>
+      <div class="mobile-menu">
+        <ul class="mobile-menu__container">
+          <li>
+            <a href="#cars-for-rent" class="mobile-menu__link">Cars for rent</a>
+          </li>
+          <li>
+            <a href="#why-us" class="mobile-menu__link">Why us</a>
+          </li>
+          <li>
+            <a href="#about" class="mobile-menu__link">About us</a>
+          </li>
+          <li>
+            <a href="#contacts" class="mobile-menu__link">Contacts</a>
+          </li>
+          <li>
+            <a href="#faq" class="mobile-menu__link">FAQ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="top__contacts">
+        <button class="social social_request make-request__button mobile-request"></button>
+        <a href="tel:+66991494737" class="social social_phone"></a>
+        <a href="https://wa.me/66991494737" class="social social_wa" target="_blank"></a>
+        <a href="https://t.me/Phuket_Car_Rental" class="social social_tg" target="_blank"></a>
+      </div>
+    </div>
+    <div class="top">
+      <div class="top__wrapper">
+        <button class="top__mobile-button"></button>
+        <div class="top__address">
+          <a href="https://maps.app.goo.gl/axjZ7ZpV5vziBZ9z9" class="address" target="_blank">90/1 Moo.7 Srisoonthorn,
+            <br>Si Sunthon, Thalang, Phuket, 83110</a>
+        </div>
+        <a class="logo" title="Easy Rental logo" href="/"></a>
+        <div class="top__contacts">
+          <button class="social social_request make-request__button"></button>
+          <a href="tel:+66991494737" class="social social_phone"></a>
+          <a href="https://wa.me/66991494737" class="social social_wa" target="_blank"></a>
+          <a href="https://t.me/Phuket_Car_Rental" class="social social_tg" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p class="slogan">Drive your adventure with&nbsp;easy</p>
+      <p class="slogan_cursive">with Easy&nbsp;Rental Company</p>
+    </div>
+    <div class="bottom">
+      <ul class="top__menu">
+        <li class="top__menu-link">
+          <a href="#cars-for-rent">Cars for rent</a>
+        </li>
+        <li class="top__menu-link">
+          <a href="#why-us">Why us</a>
+        </li>
+        <li class="top__menu-link">
+          <a href="#about">About us</a>
+        </li>
+        <li class="top__menu-link">
+          <a href="#contacts">Contacts</a>
+        </li>
+        <li class="top__menu-link">
+          <a href="#faq">FAQ</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main class="main">
+    <section class="vehicles">
+      <div class="section__wrapper">
+        <h2 class="section__title"><a name="cars-for-rent">Cars for rent</a></h2>
+        <p class="section__subtitle">Pick your favorite to drive</p>
+        <div class="vehicles__list">
+          <div class="vehicle">
+            <a href="vehicle.html#title"><img src="./images/fortuner_2.jpg" alt="" class="vehicle__image"></a>
+            <div class="vehicle__description">
+              <div class="vehicle__head">
+                <a class="vehicle__title" href="vehicle.html#title">Toyota Fortuner <span
+                    class="vehicle__year">2023</span></a>
+                <a href="vehicle.html#title" class="vehicle__price">from ฿600</a>
+              </div>
+              <ul class="vehicle__detail-list">
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_pass"></div>
+                  <p class="vehicle__detail-title">Passengers</p>
+                  <p class="vehicle__detail-subtitle">7</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_body"></div>
+                  <p class="vehicle__detail-title">Body Type</p>
+                  <p class="vehicle__detail-subtitle">SUV</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_gear"></div>
+                  <p class="vehicle__detail-title">Gear</p>
+                  <p class="vehicle__detail-subtitle">AT</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_fuel"></div>
+                  <p class="vehicle__detail-title">Fuel Type</p>
+                  <p class="vehicle__detail-subtitle">Diesel</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_engine"></div>
+                  <p class="vehicle__detail-title">Engine</p>
+                  <p class="vehicle__detail-subtitle">2.7&nbsp;l</p>
+                </li>
+              </ul>
+              <div class="vehicle__bottom">
+              </div>
+            </div>
+          </div>
+          <div class="vehicle">
+            <a href="vehicle.html#title"><img src="./images/fortuner_2.jpg" alt="" class="vehicle__image"></a>
+            <div class="vehicle__description">
+              <div class="vehicle__head">
+                <a class="vehicle__title" href="vehicle.html#title">Toyota Fortuner <span
+                    class="vehicle__year">2023</span></a>
+                <a href="vehicle.html#title" class="vehicle__price">from ฿600</a>
+              </div>
+              <ul class="vehicle__detail-list">
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_pass"></div>
+                  <p class="vehicle__detail-title">Passengers</p>
+                  <p class="vehicle__detail-subtitle">7</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_body"></div>
+                  <p class="vehicle__detail-title">Body Type</p>
+                  <p class="vehicle__detail-subtitle">SUV</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_gear"></div>
+                  <p class="vehicle__detail-title">Gear</p>
+                  <p class="vehicle__detail-subtitle">AT</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_fuel"></div>
+                  <p class="vehicle__detail-title">Fuel Type</p>
+                  <p class="vehicle__detail-subtitle">Diesel</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_engine"></div>
+                  <p class="vehicle__detail-title">Engine</p>
+                  <p class="vehicle__detail-subtitle">2.7&nbsp;l</p>
+                </li>
+              </ul>
+              <div class="vehicle__bottom">
+              </div>
+            </div>
+          </div>
+          <div class="vehicle">
+            <a href="#"><img src="./images/fortuner_2.jpg" alt="" class="vehicle__image"></a>
+            <div class="vehicle__description">
+              <div class="vehicle__head">
+                <a class="vehicle__title" href="#">Toyota Fortuner <span class="vehicle__year">2023</span></a>
+                <a href="#" class="vehicle__price">from ฿600</a>
+              </div>
+              <ul class="vehicle__detail-list">
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_pass"></div>
+                  <p class="vehicle__detail-title">Passengers</p>
+                  <p class="vehicle__detail-subtitle">7</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_body"></div>
+                  <p class="vehicle__detail-title">Body Type</p>
+                  <p class="vehicle__detail-subtitle">SUV</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_gear"></div>
+                  <p class="vehicle__detail-title">Gear</p>
+                  <p class="vehicle__detail-subtitle">AT</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_fuel"></div>
+                  <p class="vehicle__detail-title">Fuel Type</p>
+                  <p class="vehicle__detail-subtitle">Diesel</p>
+                </li>
+                <li class="vehicle__detail">
+                  <div class="vehicle__detail-icon vehicle__detail-icon_type_engine"></div>
+                  <p class="vehicle__detail-title">Engine</p>
+                  <p class="vehicle__detail-subtitle">2.7&nbsp;l</p>
+                </li>
+              </ul>
+              <div class="vehicle__bottom">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="why-us">
+      <div class="section__wrapper">
+        <h2 class="section__title section__title_theme_dark"><a name="why-us">Why us</a></h2>
+        <p class="section__subtitle section__subtitle_theme_dark">Professional service for you</p>
+        <div class="why-us__container">
+          <div class="why-us__element">
+            <img src="./images/no_docs.png" alt="No deposit of documents" class="why-us__element-image">
+            <h3 class="why-us__element-title">No&nbsp;deposit of&nbsp;documents</h3>
+          </div>
+          <div class="why-us__element">
+            <img src="./images/quality_service.png" alt="High-quality service" class="why-us__element-image">
+            <h3 class="why-us__element-title">High-quality service</h3>
+          </div>
+          <div class="why-us__element">
+            <img src="./images/good_price.png" alt="Competitive prices" class="why-us__element-image">
+            <h3 class="why-us__element-title">Competitive prices</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="section__wrapper">
+        <h2 class="section__title"><a name="about">About us</a></h2>
+        <p class="section__subtitle">We are in business since 2019</p>
+        <p class="text">Welcome to Easy Rental car - your trusted partner for car rentals in Phuket!</p>
+        <p class="text">Our company offers a wide range of budget-class cars. We take pride in our competitive
+          prices, which help
+          our customers save without compromising on quality. Our goal is to provide a high level of service, ensuring
+          that every customer feels special. We meticulously maintain each car, regularly subjecting them to
+          technical inspections to guarantee the safety and comfort of your journey. And, of course, all our cars are
+          fully insured, allowing you to travel worry-free. Rental periods start from just&nbsp;one&nbsp;day
+          to&nbsp;meet all&nbsp;your needs.
+          We offer a flexible pricing policy that depends on the rental duration.</p>
+        <p class="text">Choosing us means choosing reliability, affordability, and the pleasure of traveling. Welcome to
+          the world of
+          comfort and confidence in our car rental company in Phuket.</p>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="section__wrapper">
+        <h2 class="section__title section__title_theme_dark"><a name="contacts">Contact us</a></h2>
+        <p class="section__subtitle section__subtitle_theme_dark">Use your favorite way of&nbsp;communication</p>
+        <div class="contacts__social">
+          <a href="tel:+66991494737" class="social social_phone"></a>
+          <a href="https://wa.me/66991494737" class="social social_wa" target="_blank"></a>
+          <a href="https://t.me/Phuket_Car_Rental" class="social social_tg" target="_blank"></a>
+        </div>
+        <button class="request__button make-request__button">Make request</button>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="section__wrapper">
+        <h2 class="section__title"><a name="faq">FAQ</a></h2>
+        <p class="section__subtitle">No need to ask, just get you answer</p>
+        <div class="faq__container">
+          <div class="faq__item">
+            <a class="faq__title">How to rent a car?</a>
+            <div class="faq__answer">
+              <p><b>Book</b></p>
+              <p>To rent a car leave a request on the site or call/write to the messenger. Your personal manager will
+                contact you and clarify all the details.</p>
+              <p><b>Prepare documents</b></p>
+              <p>For reservation and drawing up a contract, you need a passport photo, driver's license, location or
+                hotel name, as well as a phone number for communication.</p>
+              <p><b>Get a car</b></p>
+              <p>We will bring the car to you at the hotel or at the airport and sign the contract. In addition to
+                payment, it will be necessary to make a deposit, which will be returned upon delivery of the car.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <a class="faq__title">Are car insured?</a>
+            <div class="faq__answer">
+              <p>Yes, all of our cars are insured. When you rent a car in our company, you can rest assured that the car
+                is insured.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <a class="faq__title">What should I do if I have an accident?</a>
+            <div class="faq__answer">
+              <p>You should call the support service at the number specified in the contract, or by phone at <a
+                  href="tel:+66991494737" class="faq__phone">+66&nbsp;99&nbsp;149&nbsp;4737</a>. The operator will tell
+                you what to do. You can also contact us via WhatsApp or Telegram by phone number <a
+                  href="tel: +66 99 149 4737" class="faq__phone">+66&nbsp;99&nbsp;149&nbsp;4737</a>.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <a class="faq__title">What do I need to know about the road rules in Thailand?</a>
+            <div class="faq__answer">
+              <ol>
+                <li>In Thailand, left-hand traffic;</li>
+                <li>There is no such thing as a gratuitous stop in Thailand;</li>
+                <li>Very often, the police conduct special operations to search for drunk drivers and drivers without a
+                  license. With such a raid, all cars in a row are stopped. For driving under the influence of alcohol,
+                  a fine of 20,000 baht or a prison term follows;</li>
+                <li>Overtaking or outrunning another car is allowed only on the right side.</li>
+                <li>Any unregulated intersection is regarded as equivalent.</li>
+                <li>At a red traffic light, a left turn is allowed, but only in the absence of a forbidding sign and
+                  giving way to other road users.</li>
+                <li>Usually, the blinking of the headlights means that the driver wants to drive first.</li>
+                <li>Speed limits: in the locality - 60 km/h, outside the locality - 90 km/h, on the highway - 110 km/h.
+                </li>
+                <li>Do not forget that any instructions from a police officer are a priority and must be carried out
+                  without complaints.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="section__wrapper">
+        <h2 class="section__title section__title_theme_dark"><a name="contacts">Our partners</a></h2>
+        <p class="section__subtitle section__subtitle_theme_dark">Our friends become yours</p>
+        <div class="partners__container">
+          <a class="partner" href="https://getyourphuket.com" title="Go to the partners web-site" target="_blank">
+            <img src="./images/partners/gyp_logo.png" alt="Get Your Phuket logo" class="partner__image">
+            <p class="partner__title">Get Your Phuket</p>
+            <p class="partner__desc">Real estate agency</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <ul class="footer__menu">
+      <li><a href="#cars-for-rent" class="footer__menu-link">Cars for rent</a></li>
+      <li><a href="#why-us" class="footer__menu-link">Why us</a></li>
+      <li><a href="#about" class="footer__menu-link">About us</a></li>
+      <li><a href="#contacts" class="footer__menu-link">Contacts</a></li>
+      <li><a href="#faq" class="footer__menu-link">FAQ</a></li>
+    </ul>
+    <div class="contacts__social">
+      <a href="tel:+66991494737" class="social social_phone"></a>
+      <a href="https://wa.me/66991494737" class="social social_wa" target="_blank"></a>
+      <a href="https://t.me/Phuket_Car_Rental" class="social social_tg" target="_blank"></a>
+    </div>
+    <button class="request__button make-request__button">Make request</button>
+    <p class="footer__copy">&copy;&nbsp;<span class="footer__copy-year">2023</span> Easy&nbsp;Rental</p>
+  </footer>
+  <div class="request request_hidden">
+    <div class="request__wrapper">
+      <h2 class="request__title">
+        Make a request
+      </h2>
+      <button class="request__close-button"></button>
+      <form class="request_form" method="post">
+        <input id="selected-vehicle" name="selected-vehicle" value="" class="hidden" type="hidden">
+        <div class="request__input-container">
+          <label for="start-date">Rent start date:</label>
+          <input id="start-date" name="start-date" type="date" required placeholder="Start date" class="request__input"
+            required>
+        </div>
+        <div class="request__input-container">
+          <label for="rent-period">Rent period:</label>
+          <input id="rent-period" name="rent-period" type="text" placeholder="Text period here" required
+            class="request__input">
+        </div>
+        <div class="request__input-container">
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" class="request__input request__textarea"
+            placeholder="Your questions, preferences or additional contact info" rows="3"></textarea>
+        </div>
+        <div class="request__contacts">
+          <p class="request__text">Preffer way of connection:</p>
+          <input type="checkbox" class="checkbox hidden" id="wa" name="contact[]" value="WhatsApp">
+          <label for="wa" class="checkbox__label">WhatsApp</label>
+          <input type="checkbox" class="checkbox hidden" id="tg" name="contact[]" value="Telegram">
+          <label for="tg" class="checkbox__label">Telegram
+            <span class="request__label-description">(text nickname in the comments)</span></label>
+          <input type="checkbox" class="checkbox hidden" id="phone" name="contact[]" value="Phone">
+          <label for="phone" class="checkbox__label">Call</label>
+        </div>
+        <button class="request__button">Make request</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    function closeLoader() {
+      setTimeout(function () {
+        var loader = document.querySelector('.loader');
+        if (loader) {
+          loader.classList.add('hidden');
+        }
+      }, 1000);
+    }
+    const topButton = {
+      button: document.querySelector('.top-button'),
+      show() {
+        this.button.classList.remove('hidden');
+      },
+      hide() {
+        this.button.classList.add('hidden');
+      },
+      addEventListener() {
+        window.addEventListener('scroll', () => {
+          const scrollY = window.scrollY || document.documentElement.scrollTop;
+          scrollY > 450 ? this.show() : this.hide();
+        })
+        this.button.onclick = () => {
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          });
+        }
+      },
+    }
+    topButton.addEventListener();
+  </script>
+  <script>
+    var faq = document.querySelector('.faq__container');
+    faq?.addEventListener("click", (e) => {
+      e.preventDefault();
+      if (e.target.classList.contains('faq__title')) {
+        toggleAnswer(e);
+      }
+    });
+    function toggleAnswer(e) {
+      var faqItem = e.target.closest(".faq__item");
+      if (faqItem) {
+        var answer = faqItem.querySelector(".faq__answer");
+        if (answer) {
+          e.target.classList.toggle('faq__title_active');
+          answer.classList.toggle('faq__answer_active');
+        }
+      }
+    }
+  </script>
+  <script>
+    var header = document.querySelector('.header');
+    if (header) {
+      var i = 1;
+      var bg = 2;
+      function changeBg() {
+        setTimeout(function () {
+          header.style.backgroundImage = "url(./images/bg_top_" + bg + ".jpg)";
+          i++;
+          bg++;
+          if (bg == 6) {
+            bg = 1;
+          }
+          if (i < 100) {
+            changeBg();
+          }
+        }, 15000)
+      }
+      changeBg();
+    }
+  </script>
+  <script>
+    function showRequestWindow(e) {
+      var requestWindow = document.querySelector('.request');
+      if (requestWindow) {
+        requestWindow.classList.remove('request_hidden');
+        if (e.target.dataset.vehicle) {
+          var vehicleInput = document.querySelector('#selected-vehicle');
+          if (vehicleInput) {
+            vehicleInput.value = e.target.dataset.vehicle;
+          }
+        }
+      }
+    }
+    function hideRequestWindow(e) {
+      var requestWindow = document.querySelector('.request');
+      if (requestWindow) {
+        if (e.target.classList.contains('request') || e.target.classList.contains('request__close-button')) {
+          requestWindow.classList.add('request_hidden');
+          var form = requestWindow.querySelector('form');
+          form?.reset();
+        }
+      }
+    }
+    var requestButtons = Array?.from(document.querySelectorAll('.make-request__button'));
+    if (requestButtons.length > 0) {
+      requestButtons.forEach(item => item.addEventListener('click', showRequestWindow));
+    }
+    var requestWindow = document.querySelector('.request');
+    if (requestWindow) {
+      requestWindow.addEventListener('click', hideRequestWindow);
+    }
+  </script>
+  <script>
+    var copyYear = document.querySelector('.footer__copy-year');
+    if (copyYear) {
+      var startYear = 2023;
+      var dateTime = new Date;
+      var curYear = dateTime.getFullYear();
+      if (curYear > startYear) {
+        copyYear.textContent = startYear + '–' + curYear;
+      } else {
+        copyYear.textContent = startYear;
+      }
+    }
+  </script>
+  <script>
+    function toggleMobileMenu(e) {
+      var menu = document.querySelector('.mobile');
+      var logo = document.querySelector('.logo');
+      if (e.target.classList.contains('top__mobile-button') || e.target.classList.contains('mobile-menu__link') || e.target.classList.contains('menu-close') || e.target.classList.contains('mobile-menu__link') || e.target.classList.contains('mobile-request')) {
+        if (menu) {
+          menu.classList.toggle('mobile_active');
+          if (logo) {
+            logo.classList.toggle('logo_fixed');
+          }
+        }
+      }
+    }
+    var burgerButton = document.querySelector('.top__mobile-button');
+    if (burgerButton) {
+      burgerButton.addEventListener('click', toggleMobileMenu);
+    }
+    var menu = document.querySelector('.mobile');
+    if (menu) {
+      menu.addEventListener('click', toggleMobileMenu);
+    }
+  </script>
+  <script src="./vendor/swiper-bundle.min.js"></script>
+</body>
+
+</html>

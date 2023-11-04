@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easy Rental :: Phuket</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./styles.css">
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <!-- END GOOGLE FONT -->
+  <link rel="stylesheet" href="./vendor/swiper-bundle.min.css">
+  <script src="./vendor/swiper-bundle.min.js"></script>
+</head>
+
+<body onload="closeLoader()">
+  <div class="loader">
+    <span class="loader__icon"></span>
+  </div>
+  <button class="top-button hidden"></button>
+  <header class="header">
+    <div class="mobile">
+      <button class="menu-close"></button>
+      <div class="top__address">
+        <a href="https://maps.app.goo.gl/axjZ7ZpV5vziBZ9z9" class="address" target="_blank">90/1 Moo.7 Srisoonthorn,
+          <br>Si Sunthon, Thalang, Phuket, 83110</a>
+      </div>
+      <div class="mobile-menu">
+        <ul class="mobile-menu__container">
+          <li>
+            <a href="/#cars-for-rent" class="mobile-menu__link">Cars for rent</a>
+          </li>
+          <li>
+            <a href="/#why-us" class="mobile-menu__link">Why us</a>
+          </li>
+          <li>
+            <a href="/#about" class="mobile-menu__link">About us</a>
+          </li>
+          <li>
+            <a href="/#contacts" class="mobile-menu__link">Contacts</a>
+          </li>
+          <li>
+            <a href="/#faq" class="mobile-menu__link">FAQ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="top__contacts">
+        <button class="social social_request make-request__button mobile-request"></button>
+        <a href="tel:+66991494737" class="social social_phone"></a>
+        <a href="https://wa.me/66991494737" class="social social_wa" target="_blank"></a>
+        <a href="https://t.me/Phuket_Car_Rental" class="social social_tg" target="_blank"></a>
+      </div>
+    </div>
+    <div class="top">
+      <div class="top__wrapper">
+        <button class="top__mobile-button"></button>
+        <div class="top__address">
+          <a href="https://maps.app.goo.gl/axjZ7ZpV5vziBZ9z9" class="address" target="_blank">90/1 Moo.7 Srisoonthorn,
+            <br>Si Sunthon, Thalang, Phuket, 83110</a>
+        </div>
+        <a class="logo" title="Easy Rental logo" href="/"></a>
+        <div class="top__contacts">
+          <button class="social social_request make-request__button"></button>
+          <a href="tel:+66991494737" class="social social_phone"></a>
+          <a href="https://wa.me/66991494737" class="social social_wa" target="_blank"></a>
+          <a href="https://t.me/Phuket_Car_Rental" class="social social_tg" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p class="slogan">Drive your adventure with&nbsp;easy</p>
+      <p class="slogan_cursive">with Easy&nbsp;Rental Company</p>
+    </div>
+    <div class="bottom">
+      <ul class="top__menu">
+        <li class="top__menu-link">
+          <a href="/#cars-for-rent">Cars for rent</a>
+        </li>
+        <li class="top__menu-link">
+          <a href="/#why-us">Why us</a>
+        </li>
+        <li class="top__menu-link">
+          <a href="/#about">About us</a>
+        </li>
+        <li class="top__menu-link">
+          <a href="/#contacts">Contacts</a>
+        </li>
+        <li class="top__menu-link">
+          <a href="/#faq">FAQ</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main class="main">
+    <section class="vehicle__page">
+      <div class="section__wrapper">
+        <h1 class="section__title"><a name="title">Toyota Fortuner <span class="car__year">2023</span></a></h1>
+        <div class="vehicle__main">
+          <div class="slider">
+            <div class="swiper main-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/fortuner_1.jpg" alt="Фото афто" class="slider__image">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/fortuner_2.jpg" alt="Фото афто" class="slider__image">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/fortuner_1.jpg" alt="Фото афто" class="slider__image">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div thumbsSlider="" class="swiper swiper-thumbs">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide slider__thumb">
+                  <img src="./images/fortuner_1.jpg" alt="Фото афто" class="slider__thumb-image">
+                </div>
+                <div class="swiper-slide slider__thumb">
+                  <img src="./images/fortuner_2.jpg" alt="Фото афто" class="slider__thumb-image">
+                </div>
+                <div class="swiper-slide slider__thumb">
+                  <img src="./images/fortuner_1.jpg" alt="Фото афто" class="slider__thumb-image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <script src="vehicle.js"></script>
+          <div class="vehicle__details">
+            <ul class="vehicle__detail-list">
+              <li class="vehicle__detail">
+                <div class="vehicle__detail-icon vehicle__detail-icon_type_pass"></div>
+                <p class="vehicle__detail-title">Passengers</p>
+                <p class="vehicle__detail-subtitle">7</p>
+              </li>
+              <li class="vehicle__detail">
+                <div class="vehicle__detail-icon vehicle__detail-icon_type_body"></div>
+                <p class="vehicle__detail-title">Body Type</p>
+                <p class="vehicle__detail-subtitle">SUV</p>
+              </li>
+              <li class="vehicle__detail">
+                <div class="vehicle__detail-icon vehicle__detail-icon_type_gear"></div>
+                <p class="vehicle__detail-title">Gear</p>
+                <p class="vehicle__detail-subtitle">AT</p>
+              </li>
+              <li class="vehicle__detail">
+                <div class="vehicle__detail-icon vehicle__detail-icon_type_fuel"></div>
+                <p class="vehicle__detail-title">Fuel Type</p>
+                <p class="vehicle__detail-subtitle">Diesel</p>
+              </li>
+              <li class="vehicle__detail">
+                <div class="vehicle__detail-icon vehicle__detail-icon_type_engine"></div>
+                <p class="vehicle__detail-title">Engine</p>
+                <p class="vehicle__detail-subtitle">2.7&nbsp;l</p>
+              </li>
+            </ul>
+            <button class="request__button make-request__button" data-vehicle="Toyota Fortuner 2023 ID 12546">
+              Make request
+            </button>
+          </div>
+        </div>
+        <section class="vehicle__prices">
+          <h2 class="section__title">Prices</h2>
+          <div class="price">
+            <div class="price__container">
+              <h4 class="price__title">1-6 days</h4>
+              <p class="price__value">from <span class="price__currency">฿</span>1000</p>
+              <p class="price__sub-value">per day</p>
+            </div>
+            <div class="price__container">
+              <h4 class="price__title">7-14 days</h4>
+              <p class="price__value">from <span class="price__currency">฿</span>850</p>
+              <p class="price__sub-value">per day</p>
+            </div>
+            <div class="price__container">
+              <h4 class="price__title">15-30 days</h4>
+              <p class="price__value">from <span class="price__currency">฿</span>700</p>
+              <p class="price__sub-value">per day</p>
+            </div>
+          </div>
+          <p class="price__info">Contact us to get actual price for you.</p>
+          <button class="request__button make-request__button" data-vehicle="Toyota Fortuner 2023 ID 12546">
+            Make request
+          </button>
+          </section>
+        <section class="vehicle__detail-information">
+          <h2 class="section__title">Detail information</h2>
+          <h3>Exterior Design</h3>
+          <p>The Toyota Fortuner 2023 has an exterior design that is modern and stylish,
+            with a sleek and dynamic look.</p>
+          <p>The exterior of the Toyota Fortuner 2023 is made with high-quality materials
+            that make it look and feel luxurious.</p>
+          <h3>Interior Features</h3>
+          <p>The interior of the Toyota Fortuner 2023 is comfortable and spacious, with
+            plenty of features for convenience and entertainment.</p>
+          <p>The interior of the Toyota Fortuner 2023 is equipped with a modern
+            infotainment system, comfortable seating, and a range of advanced safety features.</p>
+          <h3>Engine and Performance</h3>
+          <p>The Toyota Fortuner 2023 is equipped with a powerful and efficient engine that
+            provides excellent performance.</p>
+          <p>The Toyota Fortuner 2023 is equipped with a 2.8L turbo-diesel engine that
+            produces up to 177 kW of power and 500 Nm of torque.</p>
+          <h3>Safety Features</h3>
+          <p>The Toyota Fortuner 2023 is equipped with a range of advanced safety features
+            for added protection and peace
+            of mind.</p>
+          <p>The Toyota Fortuner 2023 is equipped with a range of advanced safety features,
+            including ABS brakes, ESC, and
+            a rear-view camera.</p>
+          <h3>Driving Experience</h3>
+          <p>The Toyota Fortuner 2023 provides an enjoyable and comfortable driving
+            experience, with plenty of power and
+            excellent handling.</p>
+          <p>The Toyota Fortuner 2023 has a powerful engine and excellent handling, making
+            it a great car for both city and
+            highway driving.</p>
+          <h3>Conclusion</h3>
+          <p>The Toyota Fortuner 2023 is a modern and stylish car with a range of features
+            and excellent performance.</p>
+          <p>The Toyota Fortuner 2023 is a great car for those looking for a modern and
+            luxurious vehicle with plenty of
+            power and excellent handling.</p>
+          <h3>The Power of Toyota Fortuner 2023</h3>
+          <p>The Toyota Fortuner 2023 is a powerful and efficient vehicle that is perfect
+            for business needs.</p>
+          <p>This vehicle provides a reliable and cost-effective solution for the modern
+            business, making it the smart
+            choice for entrepreneurs and business owners.</p>
+          <h3>Advanced Technology</h3>
+          <p>The Toyota Fortuner 2023 is equipped with advanced technology to make business
+            operations easier and more
+            efficient.</p>
+          <p>This includes features such as a voice-activated navigation system, a
+            rear-view camera, and a state-of-the-art
+            infotainment system.</p>
+          <h3>Safety and Security</h3>
+          <p>The Toyota Fortuner 2023 is designed with safety and security in mind, making
+            it the perfect choice for
+            businesses who need to transport valuable goods.</p>
+          <p>This vehicle is equipped with a range of advanced safety features, such as
+            airbags, anti-lock brakes, and a
+            tire pressure monitoring system.</p>
+          <h3>Fuel Efficiency</h3>
+          <p>The Toyota Fortuner 2023 is designed to be fuel-efficient, making it the
+            perfect choice for businesses who
+            need to save on fuel costs.</p>
+          <p>This vehicle is equipped with a range of advanced fuel-saving technologies,
+            such as an engine start-stop
+            system and an efficient transmission.</p>
+          <h3>Affordable and Reliable</h3>
+          <p>The Toyota Fortuner 2023 is designed to be affordable and reliable, making it
+            the perfect choice for
+            businesses who need a dependable vehicle.</p>
+          <p>This vehicle is equipped with a range of advanced technologies, such as a
+            corrosion-resistant frame, an
+            advanced suspension system, and a powerful engine.</p>
+          <h3>Conclusion</h3>
+          <p>The Toyota Fortuner 2023 is a powerful, efficient, and reliable vehicle that
+            is perfect for business needs.</p>
+          <p>This vehicle provides a cost-effective solution for the modern business,
+            making it the smart choice for
+            entrepreneurs and business owners.</p>
+          </section>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <ul class="footer__menu">
+      <li><a href="/#cars-for-rent" class="footer__menu-link">Cars for rent</a></li>
+      <li><a href="/#why-us" class="footer__menu-link">Why us</a></li>
+      <li><a href="/#about" class="footer__menu-link">About us</a></li>
+      <li><a href="/#contacts" class="footer__menu-link">Contacts</a></li>
+      <li><a href="/#faq" class="footer__menu-link">FAQ</a></li>
+    </ul>
+    <div class="contacts__social">
+      <a href="tel:+66991494737" class="social social_phone"></a>
+      <a href="https://wa.me/66991494737" class="social social_wa" target="_blank"></a>
+      <a href="https://t.me/Phuket_Car_Rental" class="social social_tg" target="_blank"></a>
+    </div>
+    <button class="request__button make-request__button">Make request</button>
+    <p class="footer__copy">&copy;&nbsp;<span class="footer__copy-year">2023</span> Easy&nbsp;Rental</p>
+  </footer>
+  <div class="request request_hidden">
+    <div class="request__wrapper">
+      <h2 class="request__title">
+        Make a request
+      </h2>
+      <button class="request__close-button"></button>
+      <form class="request_form" method="post">
+        <input id="selected-vehicle" name="selected-vehicle" value="" class="hidden" type="hidden">
+        <div class="request__input-container">
+          <label for="start-date">Rent start date:</label>
+          <input id="start-date" name="start-date" type="date" required placeholder="Start date" class="request__input"
+            required>
+        </div>
+        <div class="request__input-container">
+          <label for="rent-period">Rent period:</label>
+          <input id="rent-period" name="rent-period" type="text" placeholder="Text period here" required
+            class="request__input">
+        </div>
+        <div class="request__input-container">
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" class="request__input request__textarea"
+            placeholder="Your questions, preferences or additional contact info" rows="3"></textarea>
+        </div>
+        <div class="request__contacts">
+          <p class="request__text">Preffer way of connection:</p>
+          <input type="checkbox" class="checkbox hidden" id="wa" name="contact[]" value="WhatsApp">
+          <label for="wa" class="checkbox__label">WhatsApp</label>
+          <input type="checkbox" class="checkbox hidden" id="tg" name="contact[]" value="Telegram">
+          <label for="tg" class="checkbox__label">Telegram
+            <span class="request__label-description">(text nickname in the comments)</span></label>
+          <input type="checkbox" class="checkbox hidden" id="phone" name="contact[]" value="Phone">
+          <label for="phone" class="checkbox__label">Call</label>
+        </div>
+        <button class="request__button">Make request</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    function closeLoader() {
+      setTimeout(function () {
+        var loader = document.querySelector('.loader');
+        if (loader) {
+          loader.classList.add('hidden');
+        }
+      }, 1000);
+    }
+    const topButton = {
+      button: document.querySelector('.top-button'),
+      show() {
+        this.button.classList.remove('hidden');
+      },
+      hide() {
+        this.button.classList.add('hidden');
+      },
+      addEventListener() {
+        window.addEventListener('scroll', () => {
+          const scrollY = window.scrollY || document.documentElement.scrollTop;
+          scrollY > 450 ? this.show() : this.hide();
+        })
+        this.button.onclick = () => {
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          });
+        }
+      },
+    }
+    topButton.addEventListener();
+  </script>
+  <script>
+    var faq = document.querySelector('.faq__container');
+    faq?.addEventListener("click", (e) => {
+      e.preventDefault();
+      if (e.target.classList.contains('faq__title')) {
+        toggleAnswer(e);
+      }
+    });
+    function toggleAnswer(e) {
+      var faqItem = e.target.closest(".faq__item");
+      if (faqItem) {
+        var answer = faqItem.querySelector(".faq__answer");
+        if (answer) {
+          e.target.classList.toggle('faq__title_active');
+          answer.classList.toggle('faq__answer_active');
+        }
+      }
+    }
+  </script>
+  <script>
+    var header = document.querySelector('.header');
+    if (header) {
+      var i = 1;
+      var bg = 2;
+      function changeBg() {
+        setTimeout(function () {
+          header.style.backgroundImage = "url(./images/bg_top_" + bg + ".jpg)";
+          i++;
+          bg++;
+          if (bg == 6) {
+            bg = 1;
+          }
+          if (i < 100) {
+            changeBg();
+          }
+        }, 15000)
+      }
+      changeBg();
+    }
+  </script>
+  <script>
+    function showRequestWindow(e) {
+      var requestWindow = document.querySelector('.request');
+      if (requestWindow) {
+        requestWindow.classList.remove('request_hidden');
+        if (e.target.dataset.vehicle) {
+          var carInput = document.querySelector('#selected-vehicle');
+          if (carInput) {
+            carInput.value = e.target.dataset.vehicle;
+          }
+        }
+      }
+    }
+    function hideRequestWindow(e) {
+      var requestWindow = document.querySelector('.request');
+      if (requestWindow) {
+        if (e.target.classList.contains('request') || e.target.classList.contains('request__close-button')) {
+          requestWindow.classList.add('request_hidden');
+          var form = requestWindow.querySelector('form');
+          form?.reset();
+        }
+      }
+    }
+    var requestButtons = Array?.from(document.querySelectorAll('.make-request__button'));
+    if (requestButtons.length > 0) {
+      requestButtons.forEach(item => item.addEventListener('click', showRequestWindow));
+    }
+    var requestWindow = document.querySelector('.request');
+    if (requestWindow) {
+      requestWindow.addEventListener('click', hideRequestWindow);
+    }
+  </script>
+  <script>
+    var copyYear = document.querySelector('.footer__copy-year');
+    if (copyYear) {
+      var startYear = 2023;
+      var dateTime = new Date;
+      var curYear = dateTime.getFullYear();
+      if (curYear > startYear) {
+        copyYear.textContent = startYear + '–' + curYear;
+      } else {
+        copyYear.textContent = startYear;
+      }
+    }
+  </script>
+  <script>
+    function toggleMobileMenu(e) {
+      var menu = document.querySelector('.mobile');
+      var logo = document.querySelector('.logo');
+      if (e.target.classList.contains('top__mobile-button') || e.target.classList.contains('mobile-menu__link') || e.target.classList.contains('menu-close') || e.target.classList.contains('mobile-menu__link') || e.target.classList.contains('mobile-request')) {
+        if (menu) {
+          menu.classList.toggle('mobile_active');
+          if (logo) {
+            logo.classList.toggle('logo_fixed');
+          }
+        }
+      }
+    }
+    var burgerButton = document.querySelector('.top__mobile-button');
+    if (burgerButton) {
+      burgerButton.addEventListener('click', toggleMobileMenu);
+    }
+    var menu = document.querySelector('.mobile');
+    if (menu) {
+      menu.addEventListener('click', toggleMobileMenu);
+    }
+  </script>
+</body>
+
+</html>
